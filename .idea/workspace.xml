@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c1ee03d-2de6-463e-9179-852243ac32df" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/reflect/entry/CustomClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflect/StaticDispatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflect/entry/AnotherDerived.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflect/entry/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflect/entry/Derived.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflect/entry/ReferenceDetail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/reflect/ReflectDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reflect/ReflectDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflect/entry/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reflect/entry/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/re.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/re.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +32,20 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2Wh7jKVLSS4WG9dF5IC0LhYXlwX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -48,10 +64,27 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalTools&quot;
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ReferenceDetail">
+    <configuration name="ReferenceDetail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflect.entry.ReferenceDetail" />
+      <module name="Java-Deep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reflect.entry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReflectDetail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="reflect.ReflectDetail" />
       <module name="Java-Deep" />
@@ -65,9 +98,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StaticDispatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflect.StaticDispatch" />
+      <module name="Java-Deep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.ReflectDetail" />
+        <item itemvalue="Application.ReferenceDetail" />
+        <item itemvalue="Application.StaticDispatch" />
       </list>
     </recent_temporary>
   </component>
@@ -82,6 +129,14 @@
       <workItem from="1697173094004" duration="4939000" />
       <workItem from="1697252027534" duration="4555000" />
       <workItem from="1697337226896" duration="8370000" />
+      <workItem from="1697698057775" duration="5708000" />
+      <workItem from="1697769943476" duration="651000" />
+      <workItem from="1697770611481" duration="263000" />
+      <workItem from="1697770915914" duration="60000" />
+      <workItem from="1697770984277" duration="1344000" />
+      <workItem from="1697772730532" duration="75000" />
+      <workItem from="1697772815325" duration="1120000" />
+      <workItem from="1698656633202" duration="438000" />
     </task>
     <servers />
   </component>

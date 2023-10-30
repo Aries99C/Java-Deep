@@ -16,7 +16,7 @@ import java.util.ServiceLoader;
 
 public class ReflectDetail {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
-        Class.forName("com.mysql.cj.jdbc.Driver");
+        // Class.forName("com.mysql.cj.jdbc.Driver");
         // DriverManager.getConnection("jdbc:mysql://localhost:3306/db", "username", "password");
 
         System.out.println(DriverManager.class.getClassLoader() == ClassLoader.getPlatformClassLoader());
